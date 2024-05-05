@@ -1,5 +1,5 @@
-import { getI18n } from "#/lang/server";
 import type { ReactElement } from "react";
+import { getI18n } from "#/i18n/server";
 
 export default async function Home(): Promise<ReactElement> {
   const t = await getI18n();
